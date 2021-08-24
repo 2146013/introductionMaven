@@ -3,33 +3,33 @@ package edu.escuelaing.AREP;
 import java.io.IOException;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class Cache {
-    private ConcurrentHashMap<String, String> stocks = new ConcurrentHashMap<>();
-    private ConcurrentHashMap<String, String> Cloud = new ConcurrentHashMap<>();
+public class Memorycache {
+    private ConcurrentHashMap<String, String> alfaCache = new ConcurrentHashMap<>();
+    private ConcurrentHashMap<String, String> ixCache = new ConcurrentHashMap<>();
 
 
-    public void addStocks(String name ,String stock){
-        stocks.put(name,stock);
+    public void addalfaCache(String name ,String stock){
+        alfaCache.put(name,stock);
     }
 
 
-    public String getSocks(String name) throws IOException {
+    public String getalfaCache(String name) {
 
-        if(stocks.containsKey(name)) {
+        if(alfaCache.containsKey(name)) {
 
-            return stocks.get(name);
+            return alfaCache.get(name);
         }
-        return "none";
+        return null;
     }
-    public void addCloud(String name ,String stock){
-        Cloud.put(name,stock);
+    public void addixCache(String name ,String stock){
+        ixCache.put(name,stock);
     }
 
 
-    public String getCloud(String name) throws IOException {
-        if(Cloud.containsKey(name)) {
-            return Cloud.get(name);
+    public String getixCache(String name) {
+        if(ixCache.containsKey(name)) {
+            return ixCache.get(name);
         }
-        return "none";
+        return null;
     }
 }
