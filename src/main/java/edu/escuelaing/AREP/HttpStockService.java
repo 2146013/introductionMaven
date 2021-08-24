@@ -88,7 +88,7 @@ public abstract class HttpStockService {
                 + "</html>";
         return pageContent;
     }
-    
+
     */
     private static String resultsPage(Request req, Response res) {
         return req.queryParams("firstname") + " " +
