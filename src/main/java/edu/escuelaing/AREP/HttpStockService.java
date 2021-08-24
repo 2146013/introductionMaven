@@ -68,7 +68,7 @@ public abstract class HttpStockService {
         return responseStr;
     }
 
-    private static String inputDataPage(Request req, Response res) {
+   /* private static String inputDataPage(Request req, Response res) {
         String pageContent
                 = "<!DOCTYPE html>"
                 + "<html>"
@@ -88,6 +88,8 @@ public abstract class HttpStockService {
                 + "</html>";
         return pageContent;
     }
+    
+    */
     private static String resultsPage(Request req, Response res) {
         return req.queryParams("firstname") + " " +
                 req.queryParams("lastname");
