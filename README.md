@@ -1,7 +1,7 @@
 # IntroductionMaven
 En esta aplicacion que muestra una arquitectura simple de Microservidor donde se 
 puede evidenciar que esta desplegada en Heroku.
-[https://app-tablero.herokuapp.com/tablero.html]
+
 
 Se contruyo una apliación para consultar el mercado de valores de las acciones
 negociadas en Bolsa.  La aplicación recibirá el identificador de una acción y 
@@ -44,7 +44,7 @@ La aplicación se corre  en http://localhost:4567/
 
 
 En esta imagen se evidencia el funcionamiento del tablero y probado desde la aplicacion de heroku
-<img width="769" alt="tablero2" src="https://user-images.githubusercontent.com/60073527/125005319-13766180-e021-11eb-9920-1e8ac79ce55d.PNG">
+
 
 
 
