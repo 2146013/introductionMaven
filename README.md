@@ -8,11 +8,13 @@ negociadas en Bolsa.  La aplicación recibirá el identificador de una acción y
 muestra mostrar el histórico de la valoración intra-día, diaria, semanal y mensual.
 Para esto se utilizo el Api de Alphavantage.
 
-Imagen 1 
+<img width="534" alt="imagen1" src="https://user-images.githubusercontent.com/60073527/130713027-77e4ac7a-27f1-458d-a416-00e1822ca053.PNG">
+
 
 Igualmete como esta Api se puede enlazar con otro proveedor de servicio como es iextrading
 
-Imagen 2 
+<img width="957" alt="imagen2" src="https://user-images.githubusercontent.com/60073527/130713041-b3029bdb-989b-4370-bb92-0962e37c949a.PNG">
+
 
 ## Instrucciones de uso
 
@@ -31,7 +33,15 @@ La aplicación se corre  en http://localhost:4567/
 
 
 ## Pruebas de funcionamiento
-![imagen1]<img width="853" alt="tablero1" src="https://user-images.githubusercontent.com/60073527/125005251-efb31b80-e020-11eb-8f03-546c22e5d2a5.PNG">
+
+<img width="452" alt="pantalla1" src="https://user-images.githubusercontent.com/60073527/130713197-4d69547c-7851-4b5e-9b12-0427d47464a3.PNG">
+
+<img width="959" alt="pantalla 2" src="https://user-images.githubusercontent.com/60073527/130713210-53910ae9-674d-4d14-97d3-c13a73a6035d.PNG">
+
+## Javadoc
+
+<img width="960" alt="imagen javadoc" src="https://user-images.githubusercontent.com/60073527/130713065-17e799d5-5802-4dae-bea1-d2f0b340f9fb.PNG">
+
 
 En esta imagen se evidencia el funcionamiento del tablero y probado desde la aplicacion de heroku
 <img width="769" alt="tablero2" src="https://user-images.githubusercontent.com/60073527/125005319-13766180-e021-11eb-9920-1e8ac79ce55d.PNG">
